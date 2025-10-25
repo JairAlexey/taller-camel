@@ -14,10 +14,6 @@ target/
 logs/
 *.log
 
-# Archivos generados por Camel
-output/
-archived/
-
 # ================================
 # ARCHIVOS TEMPORALES / SISTEMA
 # ================================
