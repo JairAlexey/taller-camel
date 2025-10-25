@@ -1,0 +1,82 @@
+# ================================
+# ARCHIVOS DE COMPILACIÓN Y MAVEN
+# ================================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.iws
+*.ipr
+
+# Evita archivos de logs locales
+logs/
+*.log
+
+# Archivos generados por Camel
+output/
+archived/
+
+# ================================
+# ARCHIVOS TEMPORALES / SISTEMA
+# ================================
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ================================
+# IDEs (VS Code, IntelliJ, Eclipse, etc.)
+# ================================
+.vscode/
+.idea/
+.classpath
+.project
+.settings/
+bin/
+out/
+
+# ================================
+# OTROS ARCHIVOS NO NECESARIOS
+# ================================
+# Credenciales o configuraciones locales
+*.env
+*.local
+*.properties
+
+# Apache Camel descargado o código fuente
+apache-camel-*/
+core/
+components/
+dsl/
+catalog/
+buildingtools/
+parent/
+proposals/
+test-infra/
+tests/
+tooling/
+docs/
+etc/
+bom/
+camel-dependencies/
+camel-sbom/
+
+# Scripts o archivos de sistema
+*.cmd
+*.bat
+*.sh
+*.ps1
+mvnw
+mvnw.cmd
+
+# ================================
+# ARCHIVOS DE CONFIGURACIÓN GENERALES
+# ================================
+# Maven Wrapper y logs
+.mvn/
+dependency-reduced-pom.xml
+*.versionsBackup
